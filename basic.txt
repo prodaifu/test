@@ -3,3 +3,8 @@ git add .
 git status
 git commit -m "first commit"
 # 第一次提交
+
+git remote add origin https://github.com/prodaifu/test.git
+git push -u origin master
+# 第二次提交
+
