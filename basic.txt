@@ -4,7 +4,10 @@ git status
 git commit -m "first commit"
 # 第一次提交
 
-git remote add origin https://github.com/prodaifu/test.git
+# git remote add origin https://github.com/prodaifu/test.git(使用https需重复验证密码)
+git remote add origin git@github.com:prodaifu/test.git
 git push -u origin master
 # 第二次提交
 
+git push origin master
+# 第三次提交
